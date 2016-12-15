@@ -1,0 +1,52 @@
+* {
+	padding: 0;
+	margin: 0
+	font-family:"Helvetica Neue", Helvetica, "Hiragino Sans GB", "STHeitiSC-Light", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+}
+
+html,
+body {
+	width: 100%;
+}
+
+.luckyDraw {
+	width: 100%;
+	padding: 25%0
+}
+
+.luckyBg {
+	width: 480px;
+	height: 480px;
+	margin: 0 auto;
+	background: url(../images/luckyBg.jpg)no-repeat;
+	position: relative;
+	overflow: hidden
+}
+
+#run {
+	width: 153px;
+	height: 214px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -76px;
+	margin-top: -107px;
+	z-index: 1;
+	transform: rotate(0deg);
+	-ms-transform: rotate(0deg)
+}
+
+#btn_run {
+	width: 125px;
+	height: 125px;
+	background: url(../images/btn_start.png)no-repeat;
+	border: none;
+	outline: none;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -62px;
+	margin-top: -62px;
+	z-index: 2;
+	cursor: pointer
+}
