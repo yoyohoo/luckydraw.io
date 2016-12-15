@@ -9,6 +9,10 @@ body {
 	width: 100%;
 }
 
+input,button,select,textarea {
+	outline:none;
+}
+
 .luckyDraw {
 	width: 100%;
 	padding: 25%0
